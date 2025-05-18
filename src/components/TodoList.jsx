@@ -1,12 +1,5 @@
-import React from 'react'
+import { createSlice, configureStore } from '@reduxjs/toolkit'
 
-const TodoList = () => {
-  return (
-    <div>
-      hello 
-      
-    </div>
-  )
-}
-
-export default TodoList
+export const  store =  configureStore({
+    reducer: {},
+})
